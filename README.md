@@ -1,8 +1,3 @@
-GetDataProject
-==============
-
-Repo containing files for the Getting and Cleaning Data Course Project
-
 README
 ========================================================
 
@@ -21,18 +16,15 @@ activityrecognition@smartlab.ws
 www.smartlab.ws
 ==================================================================
 
-This repo contains 6 files:
-* a README.rmd file
-* a README.html file
-* a CodeBook.rmd file that describes the data, variables, and processes 
-leading to the reshaped data
-* a CodeBook.html file that describes the data, variables, and processes 
+This repo contains 4 files:
+* a README.md file
+* a CodeBook.md file that describes the data, variables, and processes 
 leading to the reshaped data
 * a tidy_measurement_means_by_activity_and_subject.txt file which contains
 mean values over each activity and each subject for the mean and stdev 
 measurements in the original dataset
 * and, an R script, run_analysis.R which perofrms performs the operations and
-calculations needed to read, parse, reshape, transform, and rewrite the data
+calculations needed to read, parse, reshape, transform, and rewrite the data. This script can be sourced into R to generate the 2 result data sets.
 
 Additional information about the underlying data can be found in the original
 contributor's documentation, available here:
